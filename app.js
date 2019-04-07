@@ -1,4 +1,4 @@
-import moment from 'moment/src/moment.js'
+import moment from 'moment/src/moment'
 import { renderChart } from './d3-example.js'
 import preact from './preact-example.js'
 
