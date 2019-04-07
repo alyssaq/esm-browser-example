@@ -1,4 +1,4 @@
-import { h, render } from './node_modules/preact/src/preact.js'
+import { h, render } from 'preact/src/preact.js'
 
 export default function() {
   render(

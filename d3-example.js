@@ -1,7 +1,7 @@
-import d3linear from './node_modules/d3-scale/src/linear'
-import d3band from './node_modules/d3-scale/src/band'
-import d3select from './node_modules/d3-selection/src/select.js'
-import {axisBottom, axisLeft} from './node_modules/d3-axis/src/axis.js'
+import d3linear from 'd3-scale/src/linear.js'
+import d3band from 'd3-scale/src/band.js'
+import d3select from 'd3-selection/src/select.js'
+import {axisBottom, axisLeft} from 'd3-axis/src/axis.js'
 
 async function readData () {
   const response = await fetch('./data.json')
