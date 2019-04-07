@@ -1,0 +1,19 @@
+{
+  "main": "app.js",
+  "scripts": {
+    "main": "node babelparser.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.4.0",
+    "@babel/parser": "^7.4.3",
+    "@babel/traverse": "^7.4.3",
+    "@babel/types": "^7.4.0",
+    "d3-axis": "^1.0.12",
+    "d3-scale": "^3.0.0",
+    "d3-selection": "^1.4.0",
+    "moment": "^2.24.0",
+    "preact": "^8.4.2",
+    "resolve": "^1.10.0",
+    "rimraf": "^2.6.3"
+  }
+}
