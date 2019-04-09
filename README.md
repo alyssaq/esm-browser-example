@@ -2,7 +2,7 @@
 Run ES modules in the browser with minimal modifications. No concatenation, no minfication.
 
 ## Building
-Libraries: 
+ESM Libraries: 
 * [momentjs](https://momentjs.com/)
 * [preact](https://preactjs.com/)
 * [d3 v4](https://d3js.org/)
