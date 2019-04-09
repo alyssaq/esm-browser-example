@@ -2,11 +2,15 @@
   "main": "babelparser.js",
   "scripts": {
     "start": "node babelparser.js",
-    "rollup": "rollup -c && rollup -c react.rollup.config.js && cp bundle.html build/bundle.html"
+    "rollup": "rollup -c && rollup -c react-router.rollup.config.js && cp bundle.html build/bundle.html"
   },
+  "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.4.3",
     "@babel/generator": "^7.4.0",
     "@babel/parser": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
     "@babel/traverse": "^7.4.3",
     "@babel/types": "^7.4.0",
     "d3-axis": "^1.0.12",
@@ -16,6 +20,8 @@
     "preact": "^8.4.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
     "resolve": "^1.10.0",
     "rimraf": "^2.6.3"
   },
