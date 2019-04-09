@@ -1,5 +1,5 @@
 # esm-browser-example
-Run ES modules in the browser with minimal modifications. No concatenation, no minfication.
+Run ES modules in the browser with minimal modifications. No concatenation, no minfication.   
 Uses babel to parse ES6 code and re-writes import/export file statements by appending `.js` and resolving paths in `node_modules`.
 
 ## Building
