@@ -1,5 +1,6 @@
 # esm-browser-example
 Run ES modules in the browser with minimal modifications. No concatenation, no minfication.
+Uses babel to parse ES6 code and re-writes import/export file statements by appending `.js` and resolving paths in `node_modules`.
 
 ## Building
 ESM Libraries: 
@@ -11,7 +12,7 @@ ESM Libraries:
 $ npm install
 $ node babelparser.js
 ```
-It will create a `build` folder with `index.html`.
+It will create a `build` folder with `index.html` and ESM files.
 
 ## Building with react & react-router
 Because [React's](https://github.com/facebook/react) npm module is a 💩and is not ES6-compliant / ESM, use [rollup](https://rollupjs.org) to create a bundle with cjs.
