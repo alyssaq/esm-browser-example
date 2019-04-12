@@ -76,6 +76,9 @@ function JSdependencies (filepath, fileSet = new Set()) {
     ExportNamedDeclaration(data) {
       fileSet = process(data, dir, fileSet)
     },
+    ExportAllDeclaration(data) {
+      fileSet = process(data, dir, fileSet)
+    }
   })
 
   const newCode = generate(ast).code
